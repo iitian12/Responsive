@@ -1,0 +1,85 @@
+.header {
+  background-color: #008080c5;
+  display: flex;
+  flex-direction: row;
+  height: 60px;
+  align-items: center;
+}
+
+.pentaloons {
+  height: 40px;
+  cursor: pointer;
+  margin-left: 100px;
+}
+
+.genders {
+  margin-left: 50px;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  gap: 50px;
+}
+
+.name {
+  font-size: 18px;
+  color: whitesmoke;
+  cursor: pointer;
+  font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+
+.name-home {
+  font-size: 18px;
+  color: whitesmoke;
+  cursor: pointer;
+  font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+
+
+
+.media-icon {
+  height: 20px;
+  display: none;
+}
+
+.search {
+  margin-left: 80px;
+  display: flex;
+  align-items: center;
+}
+
+.found {
+  height: 35px;
+  width: 200px;
+  border-radius: 10px;
+  border: 2px solid white;
+  background-color: transparent;
+  color: white;
+}
+
+input::placeholder {
+  color: whitesmoke;
+}
+
+input:focus {
+  border-color: white;
+  outline: none;
+}
+
+.search-bar {
+  height: 18px;
+  margin-left: -25px;
+  cursor: pointer;
+}
+
+.logos {
+  margin-left: 40px;
+  display: flex;
+  gap: 20px;
+  flex-direction: row;
+  align-items: center;
+}
+
+.profile {
+  height: 25px;
+  cursor: pointer;
+}

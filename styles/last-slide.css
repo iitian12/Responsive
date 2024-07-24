@@ -1,0 +1,874 @@
+.last {
+  margin-top: 250px;
+  background-color: antiquewhite;
+  height: 350px;
+  width: 1150px;
+  display: flex;
+  flex-direction: row;
+  margin-left: 170px;
+  border-radius: 10px;
+}
+
+.first-gift {
+  display: flex;
+  flex-direction: column;
+}
+
+
+.pentaloons-name {
+  margin-top: 110px;
+  width: 320px;
+  font-size: 20px;
+  margin-left: 200px;
+  letter-spacing: 2px;
+  word-spacing: 5px;
+  font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+
+.hall {
+  font-family: "Dancing Script", cursive;
+  font-size: 28px;
+}
+
+.open-gift {
+  margin-left: 200px;
+  margin-top: 5px;
+  letter-spacing: 2px;
+  word-spacing: 6px;
+  color: #008080c5;
+  cursor: pointer;
+  font-weight: 550;
+  transition: 0.3s ease;
+  font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif ;
+}
+
+.open-gift:hover {
+  color: rgb(255, 255, 255);
+}
+
+.second-gift {
+  margin-left: 200px;
+}
+
+.card-gift {
+  height: 200px;
+  width: 300px;
+  background-image: url('../images/gift card.avif');
+  background-size: cover;
+  display: flex;
+  border-radius: 10px;
+  cursor: pointer;
+  margin-top: 70px;
+  transition: 0.5s ease;
+}
+
+.card-gift:hover {
+  transform: scale(1.05);
+}
+
+.show-card {
+  margin-top: 90px;
+  color: rgba(255, 255, 255, 0.832);
+  font-weight: 550;
+  word-spacing: 5px;
+  letter-spacing: 4px;
+  margin-left: 80px;
+  font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+
+
+.follow-us {
+  margin-top: 120px;
+  display: flex;
+  flex-direction: row;
+}
+
+.details-follow {
+  display: flex;
+  margin-left: 170px;
+  flex-direction: column;
+}
+
+.gayyan {
+  margin-bottom: 0px;
+  word-spacing: 5px;
+  font-weight: 550;
+  letter-spacing: 2px;
+  margin-top: 0px;
+  font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+}
+
+.ott {
+  display: flex;
+  flex-direction: row;
+  margin-left: 30px;
+  align-items: center;
+}
+
+.member {
+  height: 40px;
+  border: 1px solid black;
+  width: 200px;
+  padding-left: 20px;
+  padding-right: 20px;
+  cursor: pointer;
+  border-radius: 5px;
+  font-weight: 550;
+  font-size: 15px;
+  background-color: transparent;
+  color: rgba(0, 128, 128, 0.773);
+  letter-spacing: 4px;
+  margin-top: -2.5px;
+  transition: 0.2s ease;
+  font-family: "Gill Sans", "Gill Sans MT", Calibri, "Trebuchet MS", sans-serif;
+}
+
+.member:hover {
+  background-color: rgba(0, 128, 128, 0.67);
+  color: white;
+}
+
+.logo-ott1 {
+  margin-left: 250px;
+  height: 20px;
+  cursor: pointer;
+  margin-right: 40px;
+}
+
+.logo-ott {
+  height: 20px;
+  cursor: pointer;
+  margin-right: 35px;
+}
+
+.logo-ott2 {
+  height: 29px;
+  cursor: pointer;
+  margin-right: 40px;
+}
+
+.logo-ott3 {
+  cursor: pointer;
+  height: 23px;
+  margin-right: 40px;
+}
+
+.delivery {
+  display: flex;
+  flex-direction: column;
+  background-color: rgba(0, 255, 255, 0.145);
+  margin-top: 30px;
+  height: 160px;
+}
+
+.all-services {
+  display: flex;
+  flex-direction: row;
+  margin-top: 30px;
+  margin-bottom: 0px;
+}
+
+.service1 {
+  height: 60px;
+  margin-left: 190px;
+  cursor: pointer;
+  margin-right: 150px;
+}
+
+.service {
+  cursor: pointer;
+  height: 60px;
+  margin-right: 150px;
+}
+
+.service-name {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  font-family: "Gill Sans", "Gill Sans MT", Calibri, "Trebuchet MS", sans-serif;
+  font-size: 12px;
+}
+
+.name-one1 {
+  margin-left: 173px;
+  margin-right: 119px;
+  font-weight: 550;
+  word-spacing: 3px;
+}
+
+.name-one2 {
+  margin-right: 100px;
+  width: 100px;
+  margin-top: 20px;
+  font-weight: 550;
+  word-spacing: 3px;
+}
+
+.phone {
+  font-weight: normal;
+  margin-left: 5px;
+}
+
+.name-one {
+  margin-right: 100px;
+  font-weight: 550;
+  margin-top: 0px;
+  word-spacing: 3px;
+}
+
+.name-one3 {
+  margin-right: 100px;
+  font-weight: 550;
+  margin-left: -8px;
+  margin-top: 0px;
+  word-spacing: 3px;
+}
+
+.experience {
+  margin-top: 100px;
+  display: flex;
+  flex-direction: column;
+}
+
+.written {
+  margin-left: 620px;
+  word-spacing: 5px;
+  font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+  font-weight: 550;
+  color: rgba(21, 21, 21, 0.868);
+}
+
+.download {
+  display: flex;
+  flex-direction: row;
+  gap: 10px;
+}
+
+.apple {
+  margin-left: 620px;
+  height: 35px;
+  cursor: pointer;
+  border-radius: 5px;
+}
+
+.gplay {
+  height: 35px;
+  width: 130px;
+  cursor: pointer;
+  border-radius: 5px;
+}
+
+.rights-reserved {
+  display: flex;
+  align-items: center;
+  flex-direction: row;
+  margin-top: 30px;
+  height: 30px;
+  border-top: 1px solid rgba(0, 0, 0, 0.41);
+}
+
+.privacy {
+  margin-left: 140px;
+  margin-top: 40px;
+  margin-right: 30px;
+  font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+
+.terms {
+  margin-right: 180px;
+  margin-top: 40px;
+  font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+
+.copy-right {
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  font-size: 13px;
+  margin-top: 35px;
+}
+
+.pay-card {
+  display: flex;
+  flex-direction: row; 
+  margin-left: 150px;
+}
+
+.visa {
+  height: 60px;
+  cursor: pointer;
+  margin-top: 25px;
+}
+
+.master-card {
+  height: 45px;
+  margin-top: 32px;
+  cursor: pointer;
+  margin-left: 20px;
+}
+
+.upi {
+  height: 30px;
+  margin-top: 40px;
+  margin-left: 20px;
+  cursor: pointer;
+}
+
+.money {
+  height: 50px;
+  margin-top: 28px;
+  cursor: pointer;
+  margin-left: 20px;
+}
+
+@media (max-width: 380px) {
+
+  body {
+    height: 3400px;
+  }
+
+  .header {
+    height: 40px;
+  }
+
+  .pentaloons {
+    height: 20px;
+    margin-left: 5px;
+  }
+
+  .genders {
+    display: none;
+    gap: 10px;
+    margin-left: 30px;
+  }
+
+  .name {
+    font-size: 12px;
+    display: none;
+  }
+
+  .name-home {
+    font-size: 12px;
+    display: none;
+  }
+
+  .search {
+    display: none;
+  }
+
+  .logos {
+    margin-left: 144px;
+    gap: 14px;
+  }
+
+  .profile {
+    height: 18px;
+  }
+
+  .sliders {
+    height: 250px;
+    width: 100%;
+  }
+
+  .new-season {
+    margin-left: 5px;
+    margin-top: 140px;
+    font-size: 30px;
+    color: #4d5e6e;
+    margin-bottom: 0px;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+  }
+
+  .coats {
+    font-size: 15px;
+    margin-top: -10px;
+    color: #748ea7;
+    margin-left: 5px;
+    margin-bottom: 10px;
+    word-spacing: 5px;
+    font-family: "Dancing Script", cursive;
+    letter-spacing: 2px;
+  }
+
+  .shop-now {
+    height: 20px;
+    width: 60px;
+    margin-top: 0px;
+    margin-left: 5px;
+    font-size: 8px;
+    letter-spacing: 1px;
+  }
+  
+
+  .jeans {
+    margin-bottom: 0px;
+    margin-top: 130px;
+    margin-left: 137px;
+    font-size: 30px;
+    width: 600px;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    color: #6f8faf;
+  }
+
+  .collection {
+    margin-left: 200px;
+    font-size: 20px;
+    font-family: "Dancing Script", cursive;
+    margin-top: -10px;
+    font-weight: 550;
+    color: #99bee3;
+    margin-bottom: 10px;
+  }
+
+  .shop-now1 {
+    width: 60px;
+    height: 20px;
+    border-radius: 20px;
+    margin-left: 296px;
+    font-size: 8px;
+  }
+
+  .tshirts {
+    margin-top: 115px;
+    font-size: 20px;
+    letter-spacing: 1px;
+    word-spacing: 5px;
+    margin-left: 5px;
+    margin-bottom: 0px;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+  }
+
+  .tribe {
+    margin-top: -2px;
+    font-size: 8px;
+    margin-left: 8px;
+    word-spacing: 5px;
+    letter-spacing: 2px;
+    color: rgb(237, 196, 142);
+  }
+
+  .summer {
+    font-size: 15px;
+    width: 100px;
+    word-spacing: 5px;
+    height: 20px;
+    padding-top: 2px;
+    padding-left: 5px;
+    margin-left: 7px;
+    margin-top: 10px;
+    transition: all 5s ease;
+  }
+
+  .offer {
+    margin-bottom: 0px;
+    margin-left: 220px;
+    margin-top: 63px;
+    font-size: 35px;
+    letter-spacing: 1.5px;
+    width: 70px;
+    font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    color: rgba(222, 184, 135, 0.916);
+  }
+
+  .women {
+    margin-left: 222px;
+    font-family: "Dancing Script", cursive;
+    font-size: 11px;
+    word-spacing: 0px;
+    letter-spacing: 0px;
+    color: rgba(195, 176, 147, 0.753);
+    margin-top: -10px;
+    font-weight: 550;
+    margin-bottom: 5px;
+  }
+  
+  .shop-now2 {
+    width: 60px;
+    height: 20px;
+    margin-left: 245px;
+    margin-top: 0px;
+    font-size: 10px;
+  }
+
+  .classes {
+    flex-direction: column;
+    margin-top: 50px;
+    align-items: center;
+  }
+
+  .classify1, .classify2, .classify3 {
+    margin-left: -4px;
+    width: 300px;
+    height: 228px;
+    margin-bottom: 20px;
+  }
+
+  .classify3 {
+    background-size: 108%;
+  }
+
+  .shop {
+    margin-left: 15px;
+  }
+
+  .trend-title, .trending, .prices {
+    display: none;
+  }
+
+
+  .container {
+    margin-top: 50px;
+    margin-left: 10px;
+    width: 340px;
+    margin-bottom: 0px;
+    height: 380px;
+    background-color: rgba(245, 230, 230, 0.985);;
+  }
+
+  
+
+  .shop-seller {
+    font-size: 20px;
+    margin-left: 10px;
+    margin-top: 30px;
+    margin-right: 0px;
+  }
+
+  .tab_btn {
+    height: 20px;
+    width: 50px;
+    font-size: 8px;
+  }
+
+  .ethic_wear {
+    display: none;
+  }
+
+  .card {
+    height: 200px;
+    margin-top: -10px;
+    width: 200px;
+    background-color: rgba(210, 110, 73, 0.642);
+  }
+
+  .second_active {
+    display: none;
+  }
+  
+  .content {
+    margin-left: 15px;
+  }
+
+  .card {
+    width: 400px;
+    margin-right: 20px;
+  }
+
+  .beautiful {
+    margin-left: 30px;
+  }
+
+  .now-on {
+    margin-top: -35px;
+  }
+
+  .now-go {
+    margin-left: 235px;
+    height: 30px;
+    width: 85px;
+  }
+
+  .top-brand {
+    display: flex;
+    margin-top: -280px;
+    flex-direction: column;
+  }
+
+  .mens-brand {
+    margin-left: 10px;
+    width: 340px;
+  }
+
+  .womens-brand {
+    margin-top: 2px;
+    width: 340px;
+    margin-left: 10px;
+    border-top-left-radius: 0px;
+    border-top-right-radius: 0px;
+    border-bottom-right-radius: 10px;
+    border-bottom-left-radius: 10px;
+  }
+
+  .brand1 {
+    margin-top: 130px;
+  }
+
+  .off1 {
+    margin-left: 90px;
+    margin-right: 50px;
+  }
+
+  .get-Now1 {
+    margin-left: -10px;
+    margin-top: -15px;
+  }
+
+
+  .brand-loved {
+    font-size: 20px;
+    margin-left: 10px;
+  }
+
+  .most_loved {
+    display: none;
+  }
+
+  .view-all {
+    margin-left: 160px;
+    font-size: 10px;
+  }
+
+  .branded {
+    margin-top: 20px;
+  }
+
+  .first-brand {
+    margin-left: 5px;
+    height: 200px;
+    width: 110px;
+  }
+
+  .image-name1 {
+    margin-left: -5px;
+    margin-top: 118px;
+    width: 90px;
+  }
+
+  .fourth-brand {
+    margin-left: 44px;
+    height: 200px;
+    width: 110px;
+  }
+
+  .image-name4 {
+    margin-left: 34px;
+    margin-top: 118px;
+    width: 90px;
+  }
+
+  .third-brand {
+    margin-left: 40px;
+    height: 200px;
+    width: 110px;
+  }
+
+  .image-name3 {
+    margin-left: 32px;
+    margin-top: 118px;
+    width: 90px;
+  }
+
+  .display_none_brand {
+    display: none;
+  }
+
+  .louis1 {
+    margin-left: -10px;
+  }
+  
+  .louis2 {
+    height: 100%;
+    margin-left: 0px;
+    transition: 0.5s ease;
+  }
+  
+  .celio {
+    height: 90%;
+    margin-left: -38px;
+    transition: 0.5s ease;
+  }
+
+  .video-brand {
+    height: 200px;
+    width: 300px;
+    display: flex;
+    margin-top: -80px;
+    margin-left: 5px;
+  }
+
+  .video-mp {
+    width: 350px;
+    border-radius: 8px;
+  }
+
+  .content-fashion {
+    margin-top: 50px;
+  }
+  
+  .content-fashion h1 {
+    margin-left: 110px;
+    font-size: 30px;
+  }
+
+  .expo {
+    height: 20px;
+    width: 70px;
+    margin-left: 100px;
+    font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif ;
+    margin-top: 5px;
+  }
+
+  .last {
+    margin-top: 50px;
+    height: 250px;
+    width: 340px;
+    margin-left: 10px;
+  }
+  
+  .pentaloons-name {
+    margin-top: 70px;
+    width: 250px;
+    font-size: 14px;
+    margin-left: 5px;
+    letter-spacing: 2px;
+    word-spacing: 0px;
+  }
+  
+  .hall {
+    font-family: "Dancing Script", cursive;
+    font-size: 20px;
+  }
+  
+  .open-gift {
+    margin-left: 5px;
+    margin-top: 5px;
+    letter-spacing: 2px;
+    word-spacing: 6px;
+  }
+  
+  .second-gift {
+    margin-left: -40px;
+  }
+  
+  .card-gift {
+    height: 120px;
+    width: 150px;
+    background-size: 100%;
+    margin-left: -34px;
+    margin-top: 99px;
+  }
+  
+  .show-card {
+    margin-top: 42px;
+    margin-left: 50px;
+  }
+
+  .details-follow {
+    display: none;
+  }
+
+  .member {
+    margin-left: 13px;
+    width: 100px;
+    height: 40px;
+    padding-left: 0px;
+    padding-right: 0px;
+    border-radius: 5px;
+    font-size: 13px;
+    letter-spacing: 0px;
+    margin-top: 0.5px;
+  }
+
+  .follow-us {
+    margin-top: 120px;
+  }
+
+  .ott {
+    margin-left: 0px;
+  }
+  
+  .logo-ott1 {
+    margin-left: 100px;
+    height: 17px;
+    cursor: pointer;
+    margin-right: 12px;
+  }
+  
+  .logo-ott {
+    height: 17px;
+    cursor: pointer;
+    margin-right: 12px;
+  }
+  
+  .logo-ott2 {
+    height: 17px;
+    cursor: pointer;
+    margin-right: 12px;
+  }
+  
+  .logo-ott3 {
+    cursor: pointer;
+    height: 17px;
+    margin-right: 0px;
+  }
+  
+  .delivery {
+    display: none;
+  }
+
+  .experience {
+    margin-top: 20px;
+    display: flex;
+    flex-direction: column;
+  }
+  
+  .written {
+    margin-left: 45px;
+    font-size: 15px;
+  }
+  
+  .download {
+    display: flex;
+    flex-direction: row;
+    gap: 10px;
+  }
+  
+  .apple {
+    margin-left: 47px;
+    height: 30px;
+    cursor: pointer;
+    border-radius: 5px;
+  }
+  
+  .gplay {
+    height: 30px;
+    width: 130px;
+    cursor: pointer;
+    border-radius: 5px;
+  }
+
+  .rights-reserved {
+    margin-top: 20px;
+    height: 30px;
+  }
+  
+  .privacy {
+    margin-left: 10px;
+    margin-top: 20px;
+    margin-right: 10px;
+    font-size: 13px;
+  }
+  
+  .terms {
+    margin-right: 10px;
+    margin-top: 20px;
+    font-size: 13px;
+  }
+  
+  .copy-right {
+    font-size: 10px;
+    margin-top: 20px;
+  }
+
+  .pay-card {
+    display: none;
+  }
+}

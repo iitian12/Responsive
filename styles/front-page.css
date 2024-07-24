@@ -1,0 +1,228 @@
+.sliders {
+  width: 1519.2px;
+  height: 620px;
+  position: relative;
+  overflow: hidden;
+}
+
+
+.js-slide {
+  width: 100%;
+  height: 100%;
+  display: flex;
+  flex-direction: column;
+  position: absolute;
+  object-fit: cover;
+  transition: transform 5s ease;
+}
+
+
+.first {
+  background-image: url('../images/seecond.jpg');
+  background-size: cover;
+}
+
+.new-season {
+  margin-left: 50px;
+  margin-top: 300px;
+  font-size: 80px;
+  color: #4d5e6e;
+  margin-bottom: 0px;
+  font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+
+.coats {
+  font-size: 32px;
+  margin-top: -20px;
+  color: #748ea7;
+  margin-left: 52px;
+  margin-bottom: 10px;
+  word-spacing: 15px;
+  font-family: "Dancing Script", cursive;
+  letter-spacing: 5px;
+}
+
+.shop-now {
+  height: 40px;
+  width: 120px;
+  margin-top: 10px;
+  border-radius: 20px;
+  border: none;
+  margin-left: 50px;
+  background-color: rgba(90, 164, 184, 0.775);
+  color: white;
+  font-size: 17px;
+  cursor: pointer;
+  letter-spacing: 1px;
+  transition: 0.4s ease;
+  font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+
+.shop-now:hover {
+  color: rgba(0, 0, 0, 0.736);
+  background-color: rgba(179, 179, 179, 0.848);
+}
+
+.second {
+  background-image: url('../images/pexels-micaasato-1082529.jpg');
+  background-size: cover;
+}
+
+.jeans {
+  margin-bottom: 0px;
+  margin-top: 402px;
+  margin-left: 860px;
+  font-size: 80px;
+  width: 600px;
+  font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+  color: #6f8faf;
+}
+
+.collection {
+  margin-left: 860px;
+  font-size: 40px;
+  font-family: "Dancing Script", cursive;
+  margin-top: -24px;
+  font-weight: 550;
+  color: #99bee3;
+  margin-bottom: 15px;
+}
+
+.shop-now1 {
+  width: 120px;
+  height: 40px;
+  border-radius: 20px;
+  margin-left: 862px;
+  border-bottom: 2px solid rgba(0, 0, 0, 0.714);
+  border-top: 2px solid rgba(0, 0, 0, 0.712);
+  border-left: 2px solid rgba(0, 0, 0, 0.714);
+  border-right: 2px solid rgba(0, 0, 0, 0.714);
+  background-color: rgba(90, 164, 184, 0.775);
+  color: white;
+  font-size: 17px;
+  cursor: pointer;
+  letter-spacing: 1px;
+  transition: 0.3s ease;
+  font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+
+.shop-now1:hover {
+  background-color: #6785a3;
+  color: black;
+}
+
+.third {
+  background-image: url('../images/pexels-anastasiya-gepp-654466-1462637.jpg');
+  background-size: cover;
+  background-repeat: no-repeat;
+}
+
+.offer {
+  margin-bottom: 0px;
+  margin-left: 960px;
+  margin-top: 344px;
+  font-size: 135px;
+  letter-spacing: 4px;
+  width: 700px;
+  font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+  color: rgba(222, 184, 135, 0.916);
+}
+
+.women {
+  margin-left: 969px;
+  font-family: "Dancing Script", cursive;
+  font-size: 20px;
+  word-spacing: 10px;
+  letter-spacing: 5px;
+  color: rgba(195, 176, 147, 0.753);
+  margin-top: -25px;
+  font-weight: 550;
+  margin-bottom: 5px;
+}
+
+.shop-now2 {
+  width: 120px;
+  height: 40px;
+  margin-left: 1050px;
+  margin-top: 5px;
+  border: none;
+  background-color: burlywood;
+  border-bottom: 2px solid rgba(0, 0, 0, 0.714);
+  border-top: 2px solid rgba(0, 0, 0, 0.712);
+  border-left: 2px solid rgba(0, 0, 0, 0.714);
+  border-right: 2px solid rgba(0, 0, 0, 0.714);
+  font-size: 15px;
+  font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+  color: rgba(0, 0, 0, 0.922);
+  border-radius: 20px;
+  cursor: pointer;
+  transition: 0.2s ease;
+}
+
+.shop-now2:hover {
+  transform: translateX(4px);
+  color: whitesmoke;
+  background-color: rgb(195, 149, 90);
+}
+
+.fourth {
+  background-image: url('../images/tshirt hd.jpg');
+  background-size: cover;
+}
+
+.tshirts {
+  margin-top: 200px;
+  font-size: 70px;
+  letter-spacing: 2px;
+  word-spacing: 15px;
+  margin-left: 5px;
+  margin-bottom: 0px;
+  font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+
+.tribe {
+  margin-top: -8px;
+  font-size: 18px;
+  margin-left: 15px;
+  word-spacing: 27.5px;
+  letter-spacing: 10px;
+  color: rgba(44, 43, 43, 0.841);
+}
+
+.summer {
+  font-size: 40px;
+  font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+  background-color: burlywood;
+  width: 345px;
+  cursor: pointer;
+  word-spacing: 5px;
+  height: 50px;
+  padding-top: 5px;
+  padding-left: 110px;
+  margin-left: 10px;
+  margin-top: 20px;
+  transition: all 10s ease;
+}
+
+.summer:hover {
+  animation: shake 10s;
+}
+
+@keyframes shake {
+  0% { transform: rotateX(0) rotateY(0); }
+  10% { transform: rotateX(10deg) rotateY(10deg); }
+  20% { transform: rotateX(-10deg) rotateY(-10deg); }
+  30% { transform: rotateX(10deg) rotateY(10deg); }
+  40% { transform: rotateX(-10deg) rotateY(-10deg); }
+  50% { transform: rotateX(10deg) rotateY(10deg); }
+  60% { transform: rotateX(-10deg) rotateY(-10deg); }
+  70% { transform: rotateX(10deg) rotateY(10deg); }
+  80% { transform: rotateX(-10deg) rotateY(-10deg); }
+  90% { transform: rotateX(10deg) rotateY(10deg); }
+  100% { transform: rotateX(0) rotateY(0); }
+}
+
+
+
+
+

@@ -1,0 +1,113 @@
+.classes {
+  display: flex;
+  flex-direction: row;
+  margin-top: 100px;
+}
+
+.classify1 {
+  height: 250px;
+  width: 350px;
+  background-image: url('../images/fashion.jpg');
+  background-size: 170%;
+  background-repeat: no-repeat;
+  position: relative;
+  overflow: hidden;
+  border: 1px solid rgba(0, 0, 0, 0.332);
+  margin-left: 150px;
+  cursor: pointer;
+}
+
+.classify2 {
+  height: 250px;
+  width: 350px;
+  background-image: url('../images/trend.avif');
+  background-size: cover;
+  position: relative;
+  overflow: hidden;
+  border: 1px solid rgba(0, 0, 0, 0.332);
+  margin-left: 100px;
+  cursor: pointer;
+}
+
+.classify3 {
+  height: 250px;
+  width: 350px;
+  background-image: url('../images/banner-03.jpg');
+  background-size: cover;
+  position: relative;
+  overflow: hidden;
+  border: 1px solid rgba(0, 0, 0, 0.332);
+  margin-left: 100px;
+  cursor: pointer;
+}
+
+.banner1 {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+}
+
+.girl {
+  font-size: 35px;
+  margin-left: 20px;
+  margin-top: 30px;
+  font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+  font-weight: 550;
+  margin-bottom: 0px;
+}
+
+.summ {
+  margin-top: 0px;
+  margin-left: 24px;
+  font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+  color: rgba(0, 0, 0, 0.705);
+}
+
+.girl1 {
+  font-size: 35px;
+  margin-left: 20px;
+  margin-top: 30px;
+  font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+  font-weight: 550;
+  color: white;
+  margin-bottom: 0px;
+}
+
+.summ1 {
+  margin-top: 0px;
+  color: whitesmoke;
+  margin-left: 22px;
+  font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+
+.card-body {
+  height: 100%;
+  width: 100%;
+  opacity: 0;
+  top: 0;
+  position: absolute;
+  background-color: rgba(68, 84, 225, 0.551);
+  transition: 0.4s ease;
+}
+
+.shop {
+  margin-top: 100px;
+  margin-left: 24px;
+  background-color: transparent;
+  border: none;
+  color: white;
+  text-decoration: underline;
+  font-size: 14px;
+  transition: 0.2s ease;
+}
+
+.shop:hover {
+  color: black;
+  cursor: pointer;
+}
+
+.classify1:hover .card-body, 
+.classify2:hover .card-body, 
+.classify3:hover  .card-body {
+  opacity: 1;
+}
